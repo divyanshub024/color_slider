@@ -1,0 +1,7 @@
+# Assets are in git for README but shouldn't be published
+assets/
+
+# Build artifacts (even though in .gitignore, pub publish may include them)
+build/
+*.iml
+example/

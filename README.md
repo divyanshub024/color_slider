@@ -3,7 +3,7 @@
 A customizable Flutter color slider widget for picking colors from a gradient spectrum. Supports both continuous and step-based selection.
 
 <div align="center">
-  <img src="assets/demo.gif" alt="Demo" style="height: 360px;">
+  <img src="https://raw.githubusercontent.com/divyanshub024/color_slider/main/assets/demo.gif" alt="Demo" style="height: 360px;">
 </div>
 
 ## Installation
@@ -24,7 +24,7 @@ flutter pub get
 
 ### Continuous Mode
 
-![Default Slider](assets/default.png)
+![Default Slider](https://raw.githubusercontent.com/divyanshub024/color_slider/main/assets/default.png)
 
 ```dart
 import 'package:color_slider/color_slider.dart';
@@ -38,7 +38,7 @@ ColorSlider(
 
 ### Step Mode
 
-![Step Mode](assets/steps.png)
+![Step Mode](https://raw.githubusercontent.com/divyanshub024/color_slider/main/assets/steps.png)
 
 ```dart
 ColorSlider.steps(
@@ -85,7 +85,7 @@ ColorSlider.steps(
 
 ### Full Customization
 
-![Custom Styling](assets/custom_styling.png)
+![Custom Styling](https://raw.githubusercontent.com/divyanshub024/color_slider/main/assets/custom_styling.png)
 
 ```dart
 ColorSlider(

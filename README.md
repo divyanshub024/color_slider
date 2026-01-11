@@ -1,24 +1,17 @@
 # Color Slider
 
-A customizable Flutter color slider widget for picking colors from a gradient spectrum. Supports both continuous and step-based selection with smooth animations.
+A customizable Flutter color slider widget for picking colors from a gradient spectrum. Supports both continuous and step-based selection.
 
-## Features
-
-- **Two Selection Modes**
-  - Continuous: Smooth color selection anywhere along the gradient
-  - Step-based: Snap to discrete positions with optional indicators
-- **Customizable Gradient**: Use your own colors or the default rainbow spectrum
-- **Animated Interactions**: Smooth thumb scaling on press and position animations
-- **Touch-Friendly**: Configurable padding for better touch targets
-- **Fully Themeable**: Customize track, thumb, and step indicator appearance
+<div align="center">
+  <img src="assets/demo.gif" alt="Demo" style="height: 360px;">
+</div>
 
 ## Installation
 
 Add to your `pubspec.yaml`:
 
 ```yaml
-dependencies:
-  color_slider: ^0.0.1
+flutter pub add color_slider
 ```
 
 Then run:
@@ -31,6 +24,8 @@ flutter pub get
 
 ### Continuous Mode
 
+![Default Slider](assets/default.png)
+
 ```dart
 import 'package:color_slider/color_slider.dart';
 
@@ -42,6 +37,8 @@ ColorSlider(
 ```
 
 ### Step Mode
+
+![Step Mode](assets/steps.png)
 
 ```dart
 ColorSlider.steps(
@@ -87,6 +84,8 @@ ColorSlider.steps(
 ```
 
 ### Full Customization
+
+![Custom Styling](assets/custom_styling.png)
 
 ```dart
 ColorSlider(
@@ -140,19 +139,6 @@ Creates a slider that snaps to discrete step positions.
 | `showStepIndicators` | `bool` | `true` | Show dot indicators |
 | `stepIndicatorRadius` | `double` | `3.0` | Indicator dot radius |
 | `stepIndicatorColor` | `Color` | `Color(0x80FFFFFF)` | Indicator dot color |
-
-### Default Colors
-
-```dart
-const defaultSliderColors = [
-  Color(0xFFFF6B00), // Orange
-  Color(0xFFFFD500), // Yellow
-  Color(0xFF7ED321), // Green
-  Color(0xFF00D4AA), // Cyan
-  Color(0xFF0066FF), // Blue
-  Color(0xFFAA00FF), // Purple
-];
-```
 
 ## Example App
 
